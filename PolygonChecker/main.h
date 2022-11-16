@@ -1,4 +1,11 @@
 #pragma once
 void printWelcome();
 int printShapeMenu();
-int* getTriangleSides(int* triangleSides);
+int* getTriangleSides();
+
+#define MAX 100
+typedef struct trianglesides {
+
+	int triangleSides[MAX];
+
+}TRIANGLESIDES;
