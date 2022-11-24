@@ -15,6 +15,17 @@ int main() {
 
 		switch (shapeChoice)
 		{
+
+		case 2:
+			printf_s("x & y selected.\n");
+
+			printf_s("Input 4 x values: ");
+			for (int i = 0; i < 4; i++)
+			{
+				scanf_s("%d", &x[i]);
+
+				printf_s("Your x values are: %d, %d, %d, %d.", x[0], x[1], x[2], x[3]);
+			}
 		case 1:
 			printf_s("Triangle selected.\n");
 			int triangleSides[3] = { 0, 0, 0 };
@@ -44,6 +55,7 @@ void printWelcome() {
 }
 
 int printShapeMenu() {
+	printf_s("2. x & y\n");
 	printf_s("1. Triangle\n");
 	printf_s("0. Exit\n");
 
