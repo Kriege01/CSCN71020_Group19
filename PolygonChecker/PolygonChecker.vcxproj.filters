@@ -24,6 +24,9 @@
     <ClCompile Include="fourpoint.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="rectangle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="triangleSolver.h">
@@ -32,8 +35,11 @@
     <ClInclude Include="main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="fourpoint.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

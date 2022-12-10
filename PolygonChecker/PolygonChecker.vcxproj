@@ -141,11 +141,13 @@
   <ItemGroup>
     <ClCompile Include="fourpoint.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="rectangle.c" />
     <ClCompile Include="triangleSolver.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fourpoint.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="rectangle.h" />
     <ClInclude Include="triangleSolver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
